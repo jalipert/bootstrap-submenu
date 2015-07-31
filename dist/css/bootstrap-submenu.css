@@ -4,7 +4,7 @@
  * Licensed under the MIT license
  */
 
-.dropdown-submenu > a:after {
+.dropdown-submenu > a:before {
   content: "";
 }
 @media (min-width: 768px) {
@@ -36,7 +36,7 @@
   .navbar-fixed-bottom .dropdown-menu-right .dropdown-submenu .dropdown-menu {
     border-radius: 4px 4px 0;
   }
-  .dropdown-submenu > a:after {
+  .dropdown-submenu > a:before {
     float: right;
     margin-top: 6px;
     margin-right: -10px;
@@ -44,7 +44,7 @@
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
   }
-  .dropdown-menu-right .dropdown-submenu > a:after {
+  .dropdown-menu-right .dropdown-submenu > a:before {
     float: left;
     border-left: none;
     margin-left: -10px;
@@ -61,7 +61,7 @@
     border: 0;
     box-shadow: none;
   }
-  .dropdown-submenu > a:after {
+  .dropdown-submenu > a:before {
     margin-left: 6px;
     display: inline-block;
     vertical-align: middle;
